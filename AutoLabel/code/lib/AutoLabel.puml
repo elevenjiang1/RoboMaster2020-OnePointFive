@@ -1,0 +1,184 @@
+@startuml
+package Annotation.py
+{
+    class BaseDetector
+    {
+        flag_trackcar
+        flag_detectcar
+        flag_detectarmor
+        flag_show_annotation
+        __Method__
+        tracker_init()
+        tracker_detect()
+        network_detect()
+        armor_detect()
+        all_detect_onimage()
+    }
+
+
+    interface BaseDetectorInterface
+    {
+        tracker_init()
+        tracker_detect()
+        network_detect()
+        armor_detect()
+        all_detect_onimage()
+    }
+
+
+    class MyDetector
+    {
+        Dataset_Name
+        tracker
+        track_method
+        tracker_category_id
+        centerDetect
+        use_foreground
+        first_frame_gray
+        yolo_detect
+        __Method__
+        merge_detectforeground()
+        getMaskblur()
+    }
+
+    class Annotation
+    {
+        __Method__
+        Annotation_Mission()
+        Annotation_File()
+        See_Annotation_Mission()
+    }
+    BaseDetector-right--|>BaseDetectorInterface
+    Annotation-left-->MyDetector
+    MyDetector-up-->BaseDetector
+
+}
+
+
+package DataAugment.py
+{
+    class DataAugment
+    {
+        dataset_path
+        \timages_path
+        \tannotations_path
+        aug_path
+        \taug_images_path
+        \taug_annotations_path
+        __Method__
+        move_origin_to_aug()
+        saveAug()
+        getAug()
+        aug_color_motion()
+        aug_more_bboxes()
+        PMJ_bboxmove()
+        seeResult()
+
+    }
+}
+
+
+package DataProcesser.py
+{
+    class DataProcesser
+    {
+        dataset_path
+        \timages_path
+        \tannotations_path
+        __Method__
+        checkBBox()
+        checkData()
+        getAllData()
+        clean_alldata()
+        Video_To_Picture()
+        File_TO_Picture()
+    }
+
+
+    class GenerateDataset
+    {
+        dataset_path
+        dataProcesser
+        __Method__
+        getJsonFile()
+        getCsvFile()
+        getArmorFile()
+
+    }
+
+    GenerateDataset-left..>DataProcesser
+
+}
+
+
+package GUI.py
+{
+    class EasyGui
+    {
+        father_window
+        font
+        writing_line
+
+        __Method__
+        setWindowName()
+        add_line()
+        new_line()
+        setLabel()
+        setButton()
+        setEntry()
+        setText()
+        setRadiobutton()
+        setCheckButton()
+        run()
+    }
+
+
+
+
+    class GUI
+    {
+        ..数据集路径..
+        Dataset_Name
+        target_file
+        dataset_file
+        \timages_path
+        \tannotations_path
+        aug_path
+        \taug_images_path
+        \taug_annotations_path
+
+        ..任务名称..
+        mission_name
+
+        ..依赖类..
+        bboxGenerater
+        dataAugment
+        dataProcesser
+        generateDataset
+
+        __Method__
+        beginMission()
+        setMissionButton()
+        drawGUI()
+        printText()
+        Mission_Manager()
+        beginGetDataPath()
+        beginToPicture()
+        beginAnnotation()
+        beginDataAugment()
+        beginMakeData()
+        beginSeeResult()
+
+    }
+
+
+    GUI-up--|>EasyGui
+    GUI-right..>DataAugment
+    GUI-left..>Annotation
+    GUI-down..>DataProcesser
+    GUI-down..>GenerateDataset
+}
+
+
+
+@enduml
