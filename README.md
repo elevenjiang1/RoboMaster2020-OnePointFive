@@ -1,4 +1,4 @@
-# RoboMaster OnePointFive 2020 项目开源
+# RoboMaster OnePointFive 2020 算法项目开源
 
 所有项目效果可以观看B站视频：https://www.bilibili.com/video/BV1Sf4y117MZ
 
@@ -136,11 +136,11 @@
 
 ### 2.3 工程代码说明
 
-​		代码主要集中在GUI.py,DataAugment.py,Annotation.py以及DataProcesser.py
+​		代码主要集中在GUI.py,DataAugment.py,Annotation.py以及DataProcesser.py，可以查看AutoLabel、AutoLabel_UML.png查看工程的UML图
 
 **GUI.py:**
 
-​		主要基于tkinter制作GUI界面,另外其中调用了Annotation, DataAugment, DataProcesser, GenerateDataset这四个类
+​		主要基于tkinter制作GUI界面,另外其中调用了Annotation, DataAugment, DataProcesser, GenerateDataset这四个类进行具体功能实现
 
 **Annotation.py:**
 
@@ -174,15 +174,10 @@
 格式
 images中有1.jpg,image_annotations中会有对应的1.txt
 标注格式为:
-1,711,296,835,397,
-第一个代表类别,后面4个代表矩形框
+1,711,296,835,397,   #第一个代表类别,后面4个代表矩形框,一行代表一个物体
 ```
 
-
-
-
-
-​		解决代码之后就会有一个标注的GUI界面
+​		解决完bug运行之后就会有一个标注的GUI界面
 
 <img src="picture/Screenshot from 2020-11-01 20-54-13.png" alt="Screenshot from 2020-11-01 20-54-13" style="zoom: 67%;" />
 
@@ -228,9 +223,9 @@ t是选择跟踪结果,点击t后,右边会出现两个跟踪框
 
 ###### 按键说明
 
-> 按键全部是基于cv.waitKey进行处理的,里面的功能非常多,也可以自定义按键指令进行控制
+> 按键全部是基于cv.waitKey进行处理的,里面的功能非常多,也可以自定义按键指令进行控制，如果希望有更好的理解，可以看Annotation.py中的Annotation类的Annotation_File的函数
 
-
+<img src="picture/Screenshot from 2020-11-01 21-55-57.png" alt="Screenshot from 2020-11-01 21-55-57" style="zoom: 80%;" />
 
 
 
@@ -243,12 +238,6 @@ t是选择跟踪结果,点击t后,右边会出现两个跟踪框
 ##### (4) 生成数据集
 
 最终,进行数据集生成,数据集生成中,会把没有标注信息的图片进行删除,再生成数据集,数据集也生成在Dataset_Name目录下
-
-
-
-
-
-
 
 
 
@@ -277,20 +266,12 @@ t是选择跟踪结果,点击t后,右边会出现两个跟踪框
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # 个人广告
 
-另外，本人对机械人抓取非常感兴趣，主要工作在机器人感知与决策上，如果有同方向的朋友，也非常欢迎与我交流！
+​	另外，本人对机械人抓取非常感兴趣，主要工作在机器人感知与决策上，如果有同方向的朋友，也非常欢迎与我交流！
 
-研究生阶段会去武汉大学李淼老师处继续学习抓取相关的知识，
+​	研究生阶段会去武汉大学李淼老师处继续学习抓取相关的知识，非常希望重新做一下PR2，但是更多会聚焦在家用电器间的物料运输，实现家庭工厂的设想：
+
+​		即将所有家用电器视为流水线上的加工机器，机器人负责将不同物料在加工机器之间进行运输。比如将衣物从脏衣桶运输到洗衣机，再将洗好的衣物挂上衣架，最后将晾干的衣服送入衣柜。其实就是实现 PR2 机器人的功能，但希望通过设计专用电器适配机器人从而降低感知和抓取的难度，通过视觉方法提升机械臂精度从而降低成本，进而真正实现这个设想。
+
+​		如果有懒得做家务从而来做机器人的同道中人,欢迎与我联系，目前我主要的工作是物体的6D姿态识别与基于感知信息的机械臂控制，对所有技术方向都十分感兴趣。
