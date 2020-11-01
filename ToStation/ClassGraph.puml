@@ -1,0 +1,97 @@
+@startuml
+package Detect.py
+{
+
+    class RS
+    {
+        open_depth
+        open_color
+        pipeline
+        resolution
+        x_matrix
+        y_matrix
+        fx
+        fy
+        cx
+        cy
+        depth_image
+        color_image
+        color_map
+        dec_filter
+        hole_filter
+        __Method__
+        get_data()
+        get_color_map()
+        get_xyz_image()
+        get_xyz()
+        __功能性函数__
+        generate_xy_matrix()
+        check_distance()
+    }
+
+
+    class Detect
+    {
+        color_image
+        depth_image
+        color_map
+        camera
+        error
+        target_length
+        __Method__
+        get_center_mask()
+        get_all_center_mask()
+        rect_filter()
+        check_Xdistance()
+        check_rect()
+        get_best_rect()
+        get_station()
+        check_mask()
+    }
+
+    Detect-up-|>RS
+}
+
+package Message.py
+{
+    class Movexyz
+    {
+        _fields_
+    }
+
+    class SendMessage
+    {
+        send_list
+        send_msg
+        USB0
+        __Method__
+        get_movexyz_msg()
+    }
+
+    SendMessage-up-|>Movexyz
+
+}
+
+
+
+package Move.py
+{
+    class Move
+    {
+        detect
+        sendMessge
+        __Method__
+        process_rect()
+        move_xyz()
+    }
+
+    Move-up--|>Detect
+    Move-up--|>SendMessage
+
+
+}
+
+
+
+@enduml
+
