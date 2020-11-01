@@ -28,7 +28,7 @@
 
 ​		如图所示，图中红色点为行李箱的正中心点，而白色点为图片中心点，以白色点的深度为阈值，索引中间正负5cm的点，再进行一些形态学操作，就可以得到右边图所示的轮廓图
 
-![Screenshot from 2020-04-06 11-02-23](picture/Screenshot from 2020-04-06 11-02-23.png)
+<img src="picture/第一版本工程对位.png" alt="第一版本工程对位"  />
 
 
 
@@ -52,7 +52,7 @@
 
 ​		另外,顺嘴一说,在Version1和Version2中的算法验证我们采用的是乐视的深度相机,换成D435后,深度视野(FOV)得到了极大的提高,但是深度成像素质却大幅度下降,为此我们进行了许多滤波才提升到可以用的效果.如果不是为了能在近处仍可以看完资源岛,乐视的深度相机反而是更好的选择.
 
-![Screenshot from 2020-11-01 18-05-04](picture/Screenshot from 2020-11-01 18-05-04.png)
+![资源岛识别](picture/资源岛识别.png)
 
 ​																(最终识别效果图)
 
@@ -179,7 +179,7 @@ images中有1.jpg,image_annotations中会有对应的1.txt
 
 ​		解决完bug运行之后就会有一个标注的GUI界面
 
-<img src="picture/Screenshot from 2020-11-01 20-54-13.png" alt="Screenshot from 2020-11-01 20-54-13" style="zoom: 67%;" />
+<img src="picture/GUI界面.png" alt="GUI界面" style="zoom:80%;" />
 
 
 
@@ -199,17 +199,15 @@ images中有1.jpg,image_annotations中会有对应的1.txt
 
 ​	点击开始标注即可开始,如果选择了使用跟踪,则会有ROI区域进行选择.使用了OpenCV里面的selectROIs,回车确定,ESC完成标注,之后直接在图片中输入标注种类即可,也是采用cv.waitKey进行数字读取
 
+![跟踪效果](picture/跟踪效果.png)
 
-
-![Screenshot from 2020-11-01 21-23-27](picture/Screenshot from 2020-11-01 21-23-27.png)
-
-(标注界面,左边中,框左下角标识说明是跟踪结果,左上角结果是识别结果)
+​								(标注界面,左边中,框左下角标识说明是跟踪结果,左上角结果是识别结果)
 
 t是选择跟踪结果,点击t后,右边会出现两个跟踪框
 
 
 
-![Screenshot from 2020-11-01 21-24-05](picture/Screenshot from 2020-11-01 21-24-05.png)
+![神经网络识别效果](picture/神经网络识别效果.png)
 
 输入数字是选择神经网络识别效果,左上角的开头数字代表识别置信度顺序,0表示只选择第0个,1表示选择0,1两个标注框
 
@@ -225,7 +223,7 @@ t是选择跟踪结果,点击t后,右边会出现两个跟踪框
 
 > 按键全部是基于cv.waitKey进行处理的,里面的功能非常多,也可以自定义按键指令进行控制，如果希望有更好的理解，可以看Annotation.py中的Annotation类的Annotation_File的函数
 
-<img src="picture/Screenshot from 2020-11-01 21-55-57.png" alt="Screenshot from 2020-11-01 21-55-57" style="zoom: 80%;" />
+<img src="picture/快捷键.png" alt="快捷键" style="zoom:80%;" />
 
 
 
