@@ -447,15 +447,28 @@ class Annotation(MyDetector):
                 print("进行bboxes的选择,按ESC退出bboexes的选择")
                 cv.namedWindow("ROIs",cv.WINDOW_FULLSCREEN)
                 bboxes=cv.selectROIs("ROIs",image)
-                print("请在图片中输入种类id")
+                print("请在图片中输入种类id")#这里为了将目标进行增多,因此要求按一次回车才认为id输入完成,不过最多允许两个值
+
+
+                category_list=[]#一个list用于保存每一次的输入
                 while True:
-                    category_id_input=cv.waitKey()
-                    category_id_input=int(category_id_input)-48
+                    ui_input=cv.waitKey()
+                    category_id_input=int(ui_input)-48
                     if -1<category_id_input<10:#在所有种类中则完成输入默认的是不超过10个
+                        print("输入的数字为:{}".format(category_id_input))
+                        category_list.append(category_id_input)
+
+                    elif ui_input==13:#回车键才进行break
                         break
 
                     else:#避免输入其他错误参数
                         print("请输入一个介于0到{}之间的数字".format(10))
+
+                for index in range(len(category_list)):
+                    if index==0:
+                        category_id=category_list[-1]
+                    else:
+                        category_id=category_id+10^index*category_list[-(index+1)]
 
                 print("多个bbox的选择为:[")
                 for bbox in bboxes:
@@ -463,12 +476,12 @@ class Annotation(MyDetector):
                     x,y,w,h=int(x),int(y),int(w),int(h)
                     x1,y1,x2,y2=x,y,x+w,y+h#进行了保存
                     cv.rectangle(image_save_show,(x1,y1),(x2,y2),(0,255,0),2)
-                    show_text_info="save:{} hand make".format(category_id_input)
+                    show_text_info="save:{} hand make".format(category_id)
                     tools.show_text(show_text_info,(x1,y1),image_save_show)
 
-                    if (x1,y1,x2,y2,None,category_id_input) not in save_infos:
-                        save_infos.append((x1,y1,x2,y2,None,category_id_input))
-                        print("      [",x1,y1,x2,y2,None,category_id_input,"]")
+                    if (x1,y1,x2,y2,None,category_id) not in save_infos:
+                        save_infos.append((x1,y1,x2,y2,None,category_id))
+                        print("      [",x1,y1,x2,y2,None,category_id,"]")
 
                 print("\n")
                 cv.destroyWindow("ROIs")

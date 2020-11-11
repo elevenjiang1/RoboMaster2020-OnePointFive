@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73674563-4032-434d-909f-0d58ffb8eb2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IROS_Pick/Code/2DDetect" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
@@ -119,6 +121,10 @@
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
     <state x="2020" y="441" width="1720" height="855" maximized="true" key="DiffContextDialog/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604226539865" />
+    <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604305651665">
+      <screen x="1920" y="316" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604305651665" />
     <state width="1874" height="441" key="GridCell.Tab.0.bottom" timestamp="1604238284968">
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
@@ -135,17 +141,18 @@
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
     <state width="1874" height="441" key="GridCell.Tab.0.right/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
-    <state x="2369" y="503" key="SettingsEditor" timestamp="1604225876971">
+    <state x="2369" y="503" key="SettingsEditor" timestamp="1604497757590">
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
-    <state x="2369" y="503" key="SettingsEditor/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604225876971" />
-    <state x="3840" y="146" width="1080" height="971" maximized="true" key="dock-window-1" timestamp="1604226351505">
+    <state x="2369" y="503" key="SettingsEditor/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604497757590" />
+    <state x="1988" y="738" width="1852" height="372" maximized="true" key="dock-window-1" timestamp="1605064444765">
+      <screen x="1920" y="316" width="1920" height="1080" />
+    </state>
+    <state x="3840" y="547" width="1080" height="677" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604971937947" />
+    <state x="1988" y="738" width="1852" height="372" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605064444765" />
+    <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2" timestamp="1604304189123">
       <screen x="3840" y="0" width="1080" height="1920" />
     </state>
-    <state x="3840" y="146" width="1080" height="971" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604226351505" />
-    <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2" timestamp="1604231701759">
-      <screen x="3840" y="0" width="1080" height="1920" />
-    </state>
-    <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604231701759" />
+    <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604304189123" />
   </component>
 </project>
