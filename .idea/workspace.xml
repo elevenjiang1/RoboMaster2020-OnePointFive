@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73674563-4032-434d-909f-0d58ffb8eb2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IROS_Pick/Code/2DDetect" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
@@ -121,10 +119,11 @@
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
     <state x="2020" y="441" width="1720" height="855" maximized="true" key="DiffContextDialog/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604226539865" />
-    <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604305651665">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state x="779" y="645" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605065458240">
+      <screen x="59" y="343" width="1861" height="1053" />
     </state>
     <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604305651665" />
+    <state x="779" y="645" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605065458240" />
     <state width="1874" height="441" key="GridCell.Tab.0.bottom" timestamp="1604238284968">
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
