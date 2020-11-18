@@ -2,13 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73674563-4032-434d-909f-0d58ffb8eb2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/networks/msra_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/networks/msra_resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/opts.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/opts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/DataProcesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/DataProcesser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/image_annotations/96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/aug/images/96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/image_annotations/25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/TEST1/dataset/images/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/使用说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/使用说明.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,34 +213,34 @@
     </state>
     <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604305651665" />
     <state x="779" y="645" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605065458240" />
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom" timestamp="1605692443922">
+    <state width="1874" height="337" key="GridCell.Tab.0.bottom" timestamp="1605692854285">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
+    <state width="1874" height="337" key="GridCell.Tab.0.bottom/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692854285" />
     <state width="1874" height="441" key="GridCell.Tab.0.bottom/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
-    <state width="1874" height="359" key="GridCell.Tab.0.center" timestamp="1605692443922">
+    <state width="1874" height="337" key="GridCell.Tab.0.center" timestamp="1605692854285">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.center/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
+    <state width="1874" height="337" key="GridCell.Tab.0.center/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692854285" />
     <state width="1874" height="441" key="GridCell.Tab.0.center/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
-    <state width="1874" height="359" key="GridCell.Tab.0.left" timestamp="1605692443922">
+    <state width="1874" height="337" key="GridCell.Tab.0.left" timestamp="1605692854284">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.left/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
+    <state width="1874" height="337" key="GridCell.Tab.0.left/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692854284" />
     <state width="1874" height="441" key="GridCell.Tab.0.left/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284967" />
-    <state width="1874" height="359" key="GridCell.Tab.0.right" timestamp="1605692443922">
+    <state width="1874" height="337" key="GridCell.Tab.0.right" timestamp="1605692854285">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.right/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
+    <state width="1874" height="337" key="GridCell.Tab.0.right/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692854285" />
     <state width="1874" height="441" key="GridCell.Tab.0.right/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
     <state x="2369" y="503" key="SettingsEditor" timestamp="1604497757590">
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
     <state x="2369" y="503" key="SettingsEditor/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604497757590" />
-    <state x="3840" y="124" width="1080" height="739" maximized="true" key="dock-window-1" timestamp="1605692445673">
+    <state x="3608" y="268" width="1070" height="739" maximized="true" key="dock-window-1" timestamp="1605707452235">
       <screen x="3840" y="0" width="1080" height="1920" />
     </state>
-    <state x="3840" y="124" width="1080" height="739" maximized="true" key="dock-window-1/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692445673" />
+    <state x="3608" y="268" width="1070" height="739" maximized="true" key="dock-window-1/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605707452235" />
     <state x="3840" y="284" width="1080" height="782" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1605578926727" />
     <state x="1988" y="738" width="1852" height="372" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605064444765" />
     <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2" timestamp="1604304189123">
