@@ -85,6 +85,26 @@ class BaseDetector:
 
         return trackbboxes,networkbboxes
 
+class EasyDetector(BaseDetector):
+    def __init__(self,Dataset_Name):
+        """
+        EasyDetector用于不导入任何模型,只让使用者用最基本的内容
+        @param Dataset_Name: 数据集名称,用于使用不同的网络训练参数
+        """
+        super(EasyDetector,self).__init__()
+
+    def tracker_init(self,image):
+        pass
+
+    def tracker_detect(self,image):
+        return False,None
+
+    def network_detect(self,image):
+        return None
+
+    def armor_detect(self,image):
+        return None
+
 class MyDetector(BaseDetector):
     def __init__(self,Dataset_Name):
         """
@@ -216,7 +236,7 @@ class MyDetector(BaseDetector):
         #这里先不写东西,全部嵌入到yolo里面进行处理了
         pass
 
-class Annotation(MyDetector):
+class Annotation(EasyDetector):
     def __init__(self,Dataset_Name):
         super(Annotation,self).__init__(Dataset_Name=Dataset_Name)
 

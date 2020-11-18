@@ -2,13 +2,14 @@
 用于生成GUI图像,里面包含了EasyGui和GUI两个类
 EasyGui负责基本GUI的显示
 GUI负责整个GUI的绘制
-这里面之后还需要补充一个不同命令的中断任务
+Log:
+2020.11.18:
+    更改接口,从而可以无条件下进行识别,不需要CenterNet的环境等
 """
 import tkinter as tk
 from tkinter import filedialog
 import os
 import sys
-# from BBoxGenerater import BBoxGenerater
 from DataAugment import DataAugment
 from DataProcesser import DataProcesser,GenerateDataset
 from Annotation import Annotation

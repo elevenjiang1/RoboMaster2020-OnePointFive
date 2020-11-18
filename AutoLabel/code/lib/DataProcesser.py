@@ -7,7 +7,6 @@ import random
 import sys
 import shutil
 import tools
-import pyzed.sl as sl
 import numpy as np
 """
 使用说明:
@@ -262,6 +261,7 @@ class DataProcesser:
         #3:导入视频
         #3.1:处理.svo文件
         if video_path[-4:]==".svo":
+            import pyzed.sl as sl#如果是zed类型的才调用pyzed
             input_type = sl.InputType()
             input_type.set_from_svo_file(video_path)
             init = sl.InitParameters(input_t=input_type, svo_real_time_mode=False)
@@ -441,7 +441,7 @@ class GenerateDataset:
 
 
         #三种训练集生成
-        cats = ['car']  # 默认只有一个类
+        cats = ['car']  # 默认只有一个类,但是不同人的不同,需要进行更改
         cat_info = []
         for i, cat in enumerate(cats):
             cat_info.append({'name': cat, 'id': i + 1})

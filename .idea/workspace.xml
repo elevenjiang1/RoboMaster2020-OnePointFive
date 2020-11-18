@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73674563-4032-434d-909f-0d58ffb8eb2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/Annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/networks/msra_resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/models/networks/msra_resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/opts.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/opts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/DataProcesser.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/DataProcesser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoLabel/code/lib/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoLabel/code/lib/GUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +98,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="opts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoLabel/code/lib/CenterNet/lib_oneclass/opts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.GUI" />
+        <item itemvalue="Python.opts" />
         <item itemvalue="Python.Detect" />
         <item itemvalue="Python.Camera" />
       </list>
@@ -125,34 +151,43 @@
     </state>
     <state x="2663" y="626" width="424" height="484" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604305651665" />
     <state x="779" y="645" key="FileChooserDialogImpl/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605065458240" />
-    <state width="1874" height="441" key="GridCell.Tab.0.bottom" timestamp="1604238284968">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state width="1874" height="359" key="GridCell.Tab.0.bottom" timestamp="1605692443922">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="359" key="GridCell.Tab.0.bottom/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
     <state width="1874" height="441" key="GridCell.Tab.0.bottom/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
-    <state width="1874" height="441" key="GridCell.Tab.0.center" timestamp="1604238284968">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state width="1874" height="359" key="GridCell.Tab.0.center" timestamp="1605692443922">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="359" key="GridCell.Tab.0.center/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
     <state width="1874" height="441" key="GridCell.Tab.0.center/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
-    <state width="1874" height="441" key="GridCell.Tab.0.left" timestamp="1604238284967">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state width="1874" height="359" key="GridCell.Tab.0.left" timestamp="1605692443922">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="359" key="GridCell.Tab.0.left/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
     <state width="1874" height="441" key="GridCell.Tab.0.left/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284967" />
-    <state width="1874" height="441" key="GridCell.Tab.0.right" timestamp="1604238284968">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state width="1874" height="359" key="GridCell.Tab.0.right" timestamp="1605692443922">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="359" key="GridCell.Tab.0.right/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692443922" />
     <state width="1874" height="441" key="GridCell.Tab.0.right/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604238284968" />
     <state x="2369" y="503" key="SettingsEditor" timestamp="1604497757590">
       <screen x="1920" y="316" width="1920" height="1080" />
     </state>
     <state x="2369" y="503" key="SettingsEditor/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604497757590" />
-    <state x="1988" y="738" width="1852" height="372" maximized="true" key="dock-window-1" timestamp="1605064444765">
-      <screen x="1920" y="316" width="1920" height="1080" />
+    <state x="3840" y="124" width="1080" height="739" maximized="true" key="dock-window-1" timestamp="1605692445673">
+      <screen x="3840" y="0" width="1080" height="1920" />
     </state>
-    <state x="3840" y="547" width="1080" height="677" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604971937947" />
+    <state x="3840" y="124" width="1080" height="739" maximized="true" key="dock-window-1/1920.0.1920.1080/59.27.1861.1053/3840.0.1080.1920@1920.0.1920.1080" timestamp="1605692445673" />
+    <state x="3840" y="284" width="1080" height="782" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1605578926727" />
     <state x="1988" y="738" width="1852" height="372" maximized="true" key="dock-window-1/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@59.343.1861.1053" timestamp="1605064444765" />
     <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2" timestamp="1604304189123">
       <screen x="3840" y="0" width="1080" height="1920" />
     </state>
     <state x="3840" y="322" width="1080" height="754" maximized="true" key="dock-window-2/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1604304189123" />
+    <state x="2518" y="563" width="724" height="610" key="find.popup" timestamp="1605578854440">
+      <screen x="1920" y="316" width="1920" height="1080" />
+    </state>
+    <state x="2518" y="563" width="724" height="610" key="find.popup/1920.316.1920.1080/59.343.1861.1053/3840.0.1080.1920@1920.316.1920.1080" timestamp="1605578854440" />
   </component>
 </project>
